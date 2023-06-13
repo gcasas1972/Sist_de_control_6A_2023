@@ -33,6 +33,5 @@ y en la opcion de tiempo de expiración seleccione
 sin tiempo de expiracion
 6-Selecciona los ámbitos que quieres concederle a este token. A fin de usar el token para acceder a repositorios desde la línea de comandos, seleccione repo. Un token sin alcances asignados solo puede acceder a información pública. Para más información, consulta "Alcances para las Apps de OAuth
 7-Haga clic en Generar token.
-este fue el token generado
+ya se podra ver el token generado
 
-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
