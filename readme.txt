@@ -1,6 +1,5 @@
 pasos para solucionar el accesos a github
 -----------------------------------------.
-
 1- bajar el repositorio con
   git clone https://github.com/gcasas1972/Sist_de_control_6A_2023.git
 2- generar un archivo
@@ -15,8 +14,9 @@ pasos para solucionar el accesos a github
 	agrega el archivo al repositorio local
 7- git pusu -uf origin main
 	sube el archivo a la nube pero al solicitar usuario y password se da
-
-
+  de existir un error de certificados al momento de realizar push
+se debera ejercutar el comando 
+    git config --global http.sslVerify false
 fatal: Authentication failed for 'https://github.com/gcasas1972/Sist_de_control_6A_2023.git/'
 
 para solucionar este problema debemos crear un personal access token (classic)
